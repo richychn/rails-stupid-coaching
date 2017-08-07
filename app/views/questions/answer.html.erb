@@ -1,0 +1,16 @@
+<div class="answer-container">
+  <div class="answer-content">
+    <div class="answer-div">
+      <p><%= @query %></p>
+      <p style="color: grey">-You</p>
+    </div>
+    <br>
+    <div class="answer-div">
+      <p><%= @ans %></p>
+      <p style="color: grey">-Coach</p>
+    </div>
+    <button>
+      <%= link_to "Ask a new question", ask_path %>
+    </button>
+  </div>
+</div>
